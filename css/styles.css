@@ -5,9 +5,13 @@
 }
 
 header {
-  background: yellow;
   height: 200px;
-  margin: 1%;
+  background-color: yellow;
+  margin:15px;
+}
+main {
+  height: 1000px;
+  padding: 15px;
 }
 
 main::after {
@@ -16,33 +20,35 @@ main::after {
   clear: both;
 }
 
+.blocco {
+  float: left;
+  margin-right: 15px;
+}
+
 .blocco-sx {
-  background: pink;
-  height: 300px;
-  width: 300px;
-  margin: 1%;
+  height: 400px;
+  width: 400px;
+  background:pink;
+  border: 1px solid black;
 }
 
 .blocco-cntr {
-  background: purple;
-  height: 500px;
-  width: 600px;
-  margin: 1%;
+  height: 600px;
+  width: 1000px;
+  background:purple;
+  border: 1px solid black;
 }
 
-.blocchi-dx {
-  background: pink;
-  height: 300px;
-  width: 300px;
-  margin: 1%;
-}
-
-.blocco {
-  float:left;
+.blocco-dx {
+  height: 400px;
+  width: 400px;
+  background:pink;
+  margin-bottom: 15px;
+  border: 1px solid black;
 }
 
 footer {
-  background: blue;
   height: 200px;
-  margin: 1%;
+  margin: 15px;
+  background-color: blue;
 }
