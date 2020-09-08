@@ -4,14 +4,18 @@
   box-sizing: border-box;
 }
 
+body {
+    border:5px solid black;
+}
+
 header {
   height: 200px;
   background-color: yellow;
   margin:15px;
 }
 main {
-  height: 1000px;
-  padding: 15px;
+  padding: 10px;
+  margin: 15px;
 }
 
 main::after {
@@ -22,29 +26,31 @@ main::after {
 
 .blocco {
   float: left;
-  margin-right: 15px;
+  margin-right: 1%;
 }
 
 .blocco-sx {
   height: 400px;
-  width: 400px;
+  width: 25%;
   background:pink;
-  border: 1px solid black;
 }
 
 .blocco-cntr {
   height: 600px;
-  width: 1000px;
+  width: 47%;
   background:purple;
-  border: 1px solid black;
+}
+
+.contenitore {
+  height: 1000px;
+  width: 25%;
 }
 
 .blocco-dx {
   height: 400px;
-  width: 400px;
+  width: 100%;
   background:pink;
   margin-bottom: 15px;
-  border: 1px solid black;
 }
 
 footer {
