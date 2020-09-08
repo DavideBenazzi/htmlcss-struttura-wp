@@ -4,40 +4,45 @@
   box-sizing: border-box;
 }
 
-.blocco-sup {
-  width: 98%;
+header {
+  background: yellow;
   height: 200px;
-  background-color: yellow;
   margin: 1%;
 }
 
 main::after {
-  content='';
-  display:table;
-  clear:both;
+  content:'';
+  display: table;
+  clear: both;
 }
 
-.blocco-left {
-  width: 22%;
+.blocco-sx {
+  background: pink;
   height: 300px;
-  background-color: pink;
+  width: 300px;
   margin: 1%;
 }
 
-.blocco-center {
-  width: 40%;
-  height: 300px;
-  background-color: purple;
+.blocco-cntr {
+  background: purple;
+  height: 500px;
+  width: 600px;
   margin: 1%;
 }
 
-.blocco-right {
-  width: 22%;
+.blocchi-dx {
+  background: pink;
   height: 300px;
-  background-color: pink;
+  width: 300px;
   margin: 1%;
 }
 
 .blocco {
-  float: left;
+  float:left;
+}
+
+footer {
+  background: blue;
+  height: 200px;
+  margin: 1%;
 }
